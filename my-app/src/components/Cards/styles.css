@@ -1,0 +1,30 @@
+.cards-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem 3rem;
+    gap: 1rem;
+  }
+  .card-img {
+    height: 270px;
+    width: 320px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+  }
+  .card-info-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+  }
+  .card-rating {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+  .card1{
+    margin-right:10rem;
+    justify-content: space-between;
+  }
+  
